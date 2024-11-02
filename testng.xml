@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1">
+    <test name="CheckCredentials">
+        <classes>
+            <class name="com.saucedemo.testcases.CheckCredentialsTest"/>
+        </classes>
+    </test>
+    <test name="ValidCredentials">
+        <classes>
+            <class name="com.saucedemo.testcases.ValidCredentialsTest"/>
+        </classes>
+    </test>
+    <test name="InvalidCredentials">
+        <classes>
+            <class name="com.saucedemo.testcases.InvalidCredentialsTest"/>
+
+        </classes>
+    </test>
+    <test name="EmptyCredentials">
+        <classes>
+            <class name="com.saucedemo.testcases.EmptyCredentialsTest"/>
+
+        </classes>
+    </test>
+</suite>
