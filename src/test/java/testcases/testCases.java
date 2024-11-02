@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class testCases extends BaseTest {
     loginPage loginObj;
-    logoutPage logoutObj;
+     logoutPage logoutObj;
 
     excelFiles excelData = new excelFiles();
 
